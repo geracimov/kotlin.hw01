@@ -1,9 +1,14 @@
 plugins {
     kotlin("jvm") version "1.3.72"
+    application
 }
 
 group = "ru.geracimov.otus.kotlin"
 version = "1.0.0"
+
+application {
+    mainClassName="ru.geracimov.otus.kotlin.hw01.MainKt"
+}
 
 repositories {
     mavenCentral()
