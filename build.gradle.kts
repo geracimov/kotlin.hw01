@@ -11,4 +11,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    testImplementation(kotlin("test"))
+    testImplementation(kotlin("test-junit"))
+    testImplementation("org.assertj:assertj-core:3.11.1")
 }
